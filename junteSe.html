@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Jekyll v3.8.6">
+        <title>Light Tech - Junte-se</title>
+        <link rel="shortcut icon" href="img/icone-light-tech.jpeg" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link rel="css/stylesheet" href="css/bootstrap.min.css">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- NAV BAR E BODY DO SITE  -->
+        <br>
+        <div class="container">
+            <header class="blog-header py-3">
+                <div class="text-center">
+                    <a class="blog-header-logo text-dark" href="#"> <span class="light-color">Light</span> Tech
+                        <img src="img/icone-light-tech.jpeg" alt=""></a>
+                </div>
+            </header>
+            <br>
+            <div class="nav-scroller py-1 mb-5">
+                <nav class="nav d-flex justify-content-around">
+                    <a class="p-2" href="index.html">Home</a>
+                    <a class="p-2" href="quemSomos.html">Quem somos</a>
+                    <a class="p-2" href="junteSe.html">Junte-se</a>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="#">
+                        <!-- FORM NOME -->
+                        <div class="form-group">
+                            <label for="Nome">Nome Completo</label>
+                            <input type="text" class="form-control" id="Nome" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">Nunca mostraremos sua informações pessoais pra
+                                ninguem.</small>
+                        </div>
+
+                        <!-- FORM EMAIL -->
+                        <div class="form-group">
+                            <label for="Email"> Email</label>
+                            <input type="email" class="form-control" id="Email">
+                        </div>
+
+                        <!-- FORM PROFISSAO -->
+                        <div class="form-group">
+                            <label for="Profissao">Profissão </label>
+                            <input type="text" class="form-control" id="Profissao">
+                        </div>
+                        <!-- TEXT AREA FORM OQUE VC GOSTARIA DE COLABORAR-->
+                        <div class="form-group">
+                            <label for="Textarea">Com oque você gostaria de colaborar?</label>
+                            <textarea class="form-control" id="TextArea" rows="3"></textarea>
+                        </div>
+                        
+                        <!--    BOTAO DE ENVIAR :) -->
+                        <button type="submit" onclick="ValidaFormulario()" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <br>
+                    <p class="tituloJunte align-self-center">PREENCHA SEUS DADOS NO FORMULÁRIO E
+                    <br>
+                    <span class="light-color">  JUNTE-SE A NÓS:</span>
+                    <br> (nós lhe responderemos no seu email)
+                    </p>
+                    <br>
+                </div>
+            </div>
+            <footer class="pt-4 my-md-5 pt-md-5 border-top">
+                <div class="row">
+                  <div class="col-12 col-md">
+                    <img class="mb-2" src="img/icone-light-tech.jpeg">
+                    <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+                  </div>
+                  <div class="col-6 col-md">
+                    <h5>Sobre</h5>
+                    <ul class="list-unstyled text-small">
+                      <li><a class="text-muted" href="quemSomos.html">Empresa</a></li>
+                      <li><a class="text-muted" href="#">Patrocinadores</a></li>
+                      <li><a class="text-muted" href="#">Projeto</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-md">
+                    <h5>Contato</h5>
+                    <ul class="list-unstyled text-small">
+                      <li><a class="text-muted" href="junteSe.html">Junte-se</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </footer>
+        </div>
+        <script src="js/functions.js"></script>
+    </body>
+</html>

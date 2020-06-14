@@ -2463,15 +2463,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    color: #000;
+    background-color: #0FFEDC;
+    border-color: #0FFEDC;
+    width: 100%;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    color: #000;
+    background-color: #0FFEDC;
+    border-color: #0FFEDC;
 }
 
 .btn-primary:focus,
@@ -2481,17 +2482,17 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    color: #000;
+    background-color: #0FFEDC;
+    border-color: #0FFEDC;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: #0062cc;
-    border-color: #005cbf;
+    color: #000;
+    background-color: #0FFEDC;
+    border-color: #0FFEDC;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -9375,7 +9376,7 @@ a:hover {
     z-index: 2;
     height: 2.75rem;
     overflow-y: hidden;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #0FFEDC;
     line-height: 1px;
 }
 
@@ -9411,7 +9412,7 @@ a:hover {
     /* Nessa classe fiz a o tamanho das imagens ficar fixo. Fazendo o tamanho dela não mudar conforme a variação
     da tela */
     .h-img {
-        height: 330px;
+        height: 300px;
         width: 210px;
         object-fit: fill;
     }
@@ -9442,4 +9443,12 @@ a:hover {
     font-family: arial;
     text-align: center;
     font-size: 20px;
+}
+
+.light-color{
+    color: #0FFEDC;
+}
+
+#teste{
+    color: black !important;
 }
