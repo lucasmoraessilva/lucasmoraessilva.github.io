@@ -9366,7 +9366,7 @@ a {
 }
 
 a:hover {
-    color: green;
+    color: black;
     text-decoration: none;
     background-color: transparent;
 }
@@ -9445,10 +9445,10 @@ a:hover {
     font-size: 20px;
 }
 
-.light-color{
+.light-color {
     color: #0FFEDC;
 }
 
-#teste{
-    color: black !important;
+#_a34fef {
+    color: #0FFEDC !important;
 }
