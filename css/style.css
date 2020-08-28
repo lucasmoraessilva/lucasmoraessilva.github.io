@@ -9452,3 +9452,12 @@ a:hover {
 #_a34fef {
     color: #0FFEDC !important;
 }
+
+.light-icon{
+    width: 45px;
+    height: 38px;
+}
+
+.light-banner{
+    width: 80%;
+}
